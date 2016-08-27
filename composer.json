@@ -1,0 +1,21 @@
+{
+  "name": "sawfly/visitors",
+  "description": "bundle for laravel, that persist into db info about conection",
+  "version": "1.0.0-dev",
+  "type": "project",
+  "keywords": "laravel, connection, user-info",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yevgeniy Trach",
+      "email": "eugene.sawfly@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Sawfly\\Visitors\\": "bundles/sawfly/src"
+    }
+  },
+  "minimum-stability": "dev"
+}
